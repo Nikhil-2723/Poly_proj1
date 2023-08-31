@@ -3,7 +3,7 @@ const NikhilNFTContractJSON = require("../artifacts/contracts/NikhilNFT.sol/Nikh
 
 const contract_address = "0xf5D0F69Cd9888030dcc2De05fA99dBaa0fCFeF31"; // Replace with the actual contract address
 const NikhilNFTABI = NikhilNFTContractJSON.abi;
-const walletAddress = "0x3Fc5fb342Aec4773ce3C4FB70FC357f22E2c1dE1"; // Replace with your wallet address
+const walletAddress = "0x77E930D39F67A75E5054bF73a92ffC02c98d9cf2"; // Replace with your wallet address
 
 async function main() {
     const NikhilNFTContract = await hre.ethers.getContractAt(NikhilNFTABI, contract_address);
